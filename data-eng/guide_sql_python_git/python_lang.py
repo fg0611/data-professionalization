@@ -228,8 +228,8 @@ class Person:
 
 p1 = Person("John", 36)
 
-print(p1)
-p1.myfunc()
+# print(p1)
+# p1.myfunc()
 
 # delete properties
 del p1.age
@@ -244,7 +244,7 @@ class some:
 
 
 
-import json
+# import json
 
 
 # # Convert from JSON to Python:
@@ -284,13 +284,21 @@ import json
 # except:
 #   print("Something else went wrong")
 
-try:
-  print("Hello")
-except:
-  print("Something went wrong")
-else:
-  print("Nothing went wrong")
+# try:
+#   print("Hello")
+# except:
+#   print("Something went wrong")
+# else:
+#   print("Nothing went wrong")
 
 
-username = input("Enter username:")
-print("Username is: " + username)
+# username = input("Enter username:")
+# print("Username is: " + username)
+
+
+import datetime
+
+x = datetime.datetime.now()
+print(x)
+print(x.year)
+print(x.strftime("%A"))
